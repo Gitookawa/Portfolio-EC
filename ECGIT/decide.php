@@ -1,6 +1,8 @@
 <?php
 require"kettei.php";
+
 session_start();
+
 $kettei = new kettei();
 $gazo = $_SESSION['gazo'];
 $mail = $_SESSION['id'];
@@ -18,5 +20,6 @@ $kettei->namae = $namae;
 $kettei->kosuu = $kosuu;
 $kettei->nedan = $nedan;
 $kettei->logid();
+
 ?>
 
